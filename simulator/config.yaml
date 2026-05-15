@@ -41,4 +41,4 @@ externalImportEnabled: false
 
 # This variable indicates whether an external scheduler
 # is used.
-externalSchedulerEnabled: false
+externalSchedulerEnabled: true

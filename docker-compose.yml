@@ -33,6 +33,7 @@ services:
     volumes:
       - simulator-etcd-data:/var/lib/etcd
       - ./kwok.yaml:/root/.kwok/kwok.yaml
+      - ./data:/data
     environment:
       - KWOK_KUBE_APISERVER_PORT=3131
     networks:
